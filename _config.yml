@@ -11,7 +11,7 @@ title                    : "Brianna N. Isola"
 title_separator          : "-"
 name                     : &name "Brianna Isola"
 description              : &description "PhD Graduate Student @ UNH"
-url                      : "https://briannaisola.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://briannaisola.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io" # 11-6-23: added ""
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -86,7 +86,7 @@ author:
   location         : "Durham, NH"
   employer         : "University of New Hampshire"
   pubmed           : 
-  googlescholar    : 
+ # googlescholar    : 
   email            : "brianna.isola@unh.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
