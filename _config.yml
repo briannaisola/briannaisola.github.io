@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Brianna N. Isola"
   avatar           : "profile.png"
-  bio              : "PhD Student in Space Physics focusing on inner-magnetopspheric dyanmics"
-  location         : "University of New Hampshire, Durham, NH"
+  bio              : "PhD Student in Space Physics"
+  location         : "University of New Hampshire"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "http://yourfullgooglescholarurl.com"
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
