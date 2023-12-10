@@ -9,5 +9,5 @@ redirect_from:
 ---
 
 
-I am a 4th-year Ph.D. student at the University of New Hampshire [Space Sciences Center](https://eos.unh.edu/space-science-center), specializing in magnetospheric physics under the guidance of [Dr. Matthew Argall](https://eos.unh.edu/person/matthew-argall). My research involves employing modeling and machine learning to analyze magnetospheric dynamics to forcecast space weather events. My interest include magnetospheric modeling, magnetic reconnection, and solar-terrestrail energy transfer. 
+I am a 4th-year Ph.D. student at the University of New Hampshire [Space Sciences Center](https://eos.unh.edu/space-science-center), specializing in magnetospheric physics under the guidance of [Dr. Matthew Argall](https://eos.unh.edu/person/matthew-argall). My research involves employing modeling and machine learning to analyze magnetospheric dynamics and forcecast space weather events. My interest include magnetospheric modeling, magnetic reconnection, and solar-terrestrail energy transfer. 
 
