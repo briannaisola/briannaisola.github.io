@@ -19,5 +19,3 @@ I have previous associations at Los Alamos National Laboratory [Theoretical Divi
 * June 2024: I will be presenting at the Geospace Environment Modeling (GEM) workshop in Fort Collins, CO on the ML-IMEF electric field model.
 * May 2024: I will be a researcher for this year's Frontier Development Lab x Heliolab sprint!
 * October 2023: I will be attending the American Geophysical Union fall meeting this December in San Francisco, CA. I will be presenting two posters, one invited.
-![image](https://github.com/user-attachments/assets/6e1e19ae-ebdb-4a88-b5b2-0e3fd8d52bad)
-
