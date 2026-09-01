@@ -14,7 +14,7 @@ I have previous associations at Los Alamos National Laboratory [Theoretical Divi
 
 
 ## News & Updates
-* [UPDATE HIATUS]: This website is currently being updated and transferred to another platform. Stay tuned!
+* UPDATE HIATUS: This website is currently being updated and transferred to another platform. Stay tuned!
 * January 2026: Our AAAI paper is published. [Check it out here!](https://ojs.aaai.org/index.php/AAAI/article/view/41477)
 * October 2025: Paper Alert! Our paper from my summer work at NASA has been accepted to AAAI-26! Official publication coming soon.
 * October 2025: Paper Alert! Our paper from my work in collaboration with LANL has been published in GRL. [Check it out here!](https://agupubs-onlinelibrary-wiley-com.unh.idm.oclc.org/doi/full/10.1029/2025GL115589).
