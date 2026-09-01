@@ -8,12 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate in space physics at the University of New Hampshire [Space Sciences Center](https://eos.unh.edu/space-science-center) under the guidance of [Dr. Matthew Argall](https://eos.unh.edu/person/matthew-argall), and supported by a NASA FINESST fellowship. My research focus includes magnetospheric physics (MI coupling, magnetic reconnection, electric field), and ML/AI for space weather prediction. I am also interested in the intersection between computer vision and physics, including visualization and physics-based simulation.
+I am a PhD candidate in space physics at the University of New Hampshire [Space Sciences Center](https://eos.unh.edu/space-science-center) under the guidance of [Dr. Matthew Argall](https://eos.unh.edu/person/matthew-argall), and supported by a NASA FINESST fellowship. My research focus includes magnetospheric physics (MI coupling, magnetic reconnection, electric field), and ML/AI for space weather prediction. I am also interested in the  foundation models for broader scientific discovery, and model interpretability and explainability, focused on what these models can reveal about the underlying physics, beyond prediction alone.
 
-I have previous associations at Los Alamos National Laboratory [Theoretical Division](https://www.lanl.gov/org/ddste/aldsc/theoretical/), [NorthWest Research Associates](https://www.nwra.com/), Frontier Development Lab (FDL) [Heliolab](https://fdl.ai/heliolab), and most recently as an AI/ML intern at NASA GSFC!. Current projects section coming soon!
+I have previous associations at Los Alamos National Laboratory [Theoretical Division](https://www.lanl.gov/org/ddste/aldsc/theoretical/), [NorthWest Research Associates](https://www.nwra.com/), Frontier Development Lab (FDL) [Heliolab](https://fdl.ai/heliolab), and most recently as an AI/ML intern at NASA Goddard Space Flight Center. 
 
 
 ## News & Updates
+* [UPDATE HIATUS]: This website is currently being updated and transferred to another platform. Stay tuned!
+* January 2026: Our AAAI paper is published. [Check it out here!](https://ojs.aaai.org/index.php/AAAI/article/view/41477)
 * October 2025: Paper Alert! Our paper from my summer work at NASA has been accepted to AAAI-26! Official publication coming soon.
 * October 2025: Paper Alert! Our paper from my work in collaboration with LANL has been published in GRL. [Check it out here!](https://agupubs-onlinelibrary-wiley-com.unh.idm.oclc.org/doi/full/10.1029/2025GL115589).
 * August 2025: I will be attending ML-Helio in Madrid, Spain.
