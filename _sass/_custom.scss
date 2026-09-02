@@ -24,6 +24,10 @@ h1, .page__title {
   color: #222;
 }
 
+h3, h4, h5, h6 {
+  color: #444;
+}
+
 strong, b {
   font-weight: 700;
 }
@@ -56,6 +60,7 @@ a,
 .author__urls a,
 .archive__item-title a {
   color: $link-color;
+  font-weight: 400;
   text-decoration: none;
 }
 
@@ -73,7 +78,14 @@ a:hover,
 .archive__item-title a:hover,
 .archive__item:hover .archive__item-title {
   color: $link-color-hover;
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+/* the theme also underlines footer, nav and footnote links on hover */
+.page__footer a:hover,
+.nav__list a:hover,
+a.reversefootnote:hover {
+  text-decoration: none;
 }
 
 /* keep images inside links from picking up the theme's hover shadow */
@@ -96,8 +108,10 @@ a:hover,
   /* the avatar sits clean — no frame, no shadow */
   .author__avatar img {
     border: 0;
+    outline: 0;
     padding: 0;
     box-shadow: none;
+    border-radius: 0;
   }
 
   .author__name {

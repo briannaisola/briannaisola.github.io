@@ -84,13 +84,13 @@
 
   img {
     max-width: 175px;
-    border-radius: 50%;
+    border-radius: 0;
     padding: 0;
     border: 0;
     box-shadow: none;
 
     @include breakpoint($large) {
-      max-width: 240px;
+      max-width: 300px;
     }
   }
 }

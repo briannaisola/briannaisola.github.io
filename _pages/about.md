@@ -3,7 +3,7 @@ permalink: /
 title: "Welcome!"
 excerpt: "About me"
 author_profile: true
-news: true
+news: false  # set to true to show the News list from _data/news.yml in the sidebar
 redirect_from: 
   - /about/
   - /about.html
