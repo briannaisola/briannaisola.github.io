@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome!"
+title: "About Me"
 excerpt: "About me"
 author_profile: true
 news: false  # set to true to show the News list from _data/news.yml in the sidebar
@@ -32,19 +32,5 @@ I have previous associations at Los Alamos National Laboratory [Theoretical Divi
     </div>
   </div>
 
-  <div class="work-item work-item--reverse">
-    <div class="work-item__media">
-      <img src="{{ site.baseurl }}/images/500x300.png" alt="Replace with a project image">
-    </div>
-    <div class="work-item__body">
-      <h3 class="work-item__title">Second project title</h3>
-      <span class="work-item__meta">2025–present &middot; NASA GSFC</span>
-      <p class="work-item__desc">
-        Another short description. This block uses the
-        <code>work-item--reverse</code> class, which puts the photo on the right
-        instead of the left, so alternating items read as a rhythm down the page.
-      </p>
-    </div>
-  </div>
 
 </div>
