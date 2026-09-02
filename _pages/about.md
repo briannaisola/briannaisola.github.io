@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-<div class="banner"><strong><em>Graduating soon and looking for postdocs! Find my updated CV here.</em></strong></div>
+<div class="banner"><em>Graduating soon and looking for postdocs! Find my updated CV <strong>[here](https://drive.google.com/file/d/1JNcq28LHYu3wiDvJaRV2sVhDxgBVBlrP/view?usp=sharing).</em></strong></div>
 
 I am a PhD candidate in space physics at the University of New Hampshire [Space Sciences Center](https://eos.unh.edu/space-science-center) under the guidance of [Dr. Matthew Argall](https://eos.unh.edu/person/matthew-argall), and supported by a NASA FINESST fellowship. My research focus includes magnetospheric physics (MI coupling, magnetic reconnection, electric field), and ML/AI for space weather prediction. I am also interested in  foundation models for broader scientific discovery, and model interpretability and explainability, focused on what these models can reveal about the underlying physics, beyond prediction alone.
 
