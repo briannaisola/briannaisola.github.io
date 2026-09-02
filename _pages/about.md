@@ -11,7 +11,7 @@ redirect_from:
 
 <div class="banner"><em>Graduating soon and looking for postdocs! Find my updated CV <strong><a href="https://drive.google.com/file/d/1JNcq28LHYu3wiDvJaRV2sVhDxgBVBlrP/view?usp=sharing">here</a></strong>.</em></div>
 
-I am a PhD candidate in space physics at the University of New Hampshire [Space Sciences Center](https://eos.unh.edu/space-science-center) under the guidance of [Dr. Matthew Argall](https://eos.unh.edu/person/matthew-argall), and supported by a NASA FINESST fellowship. My research focus includes magnetospheric physics (MI coupling, magnetic reconnection, electric field), and ML/AI for space weather prediction. I am also interested in  foundation models for broader scientific discovery, and model interpretability and explainability, focused on what these models can reveal about the underlying physics, beyond prediction alone.
+I am a PhD candidate in space physics at the University of New Hampshire [Space Sciences Center](https://eos.unh.edu/space-science-center) under the guidance of [Dr. Matthew Argall](https://eos.unh.edu/person/matthew-argall), and supported by a NASA FINESST fellowship. My research focus includes magnetospheric physics (MI coupling, magnetic reconnection, electric field), and ML/AI for space weather prediction. I am also interested in  foundation models for broader scientific discovery, and model interpretability and explainability.
 
 I have previous associations at Los Alamos National Laboratory [Theoretical Division](https://www.lanl.gov/org/ddste/aldsc/theoretical/), [NorthWest Research Associates](https://www.nwra.com/), Frontier Development Lab (FDL) [Heliolab](https://fdl.ai/heliolab), and most recently as an AI/ML intern at NASA Goddard Space Flight Center. 
 
@@ -30,8 +30,10 @@ I have previous associations at Los Alamos National Laboratory [Theoretical Divi
         A short description of the project. A short description of the project. A short description of the project.
       </p>
     </div>
+     Add a <a href="https://arxiv.org/abs/2601.12557">M. Moussa, A. V. Young, B. Isola, et al., “Life, Machine Learning, and the Search for Habitability: Predicting
+Biosignature Fluxes for the Habitable Worlds Observatory”, Proceedings of the AAAI Conference on Artificial Intelligence 40, pp. 40362–40369 (2026).</a> 
   </div>
-    Add a <a href="#">link</a> to the paper, code, or poster if there is one.
+   
 
   <div class="work-item">
     <div class="work-item__media">
