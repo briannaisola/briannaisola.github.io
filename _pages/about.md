@@ -3,6 +3,7 @@ permalink: /
 title: "Welcome!"
 excerpt: "About me"
 author_profile: true
+news: true
 redirect_from: 
   - /about/
   - /about.html
@@ -12,18 +13,38 @@ I am a PhD candidate in space physics at the University of New Hampshire [Space 
 
 I have previous associations at Los Alamos National Laboratory [Theoretical Division](https://www.lanl.gov/org/ddste/aldsc/theoretical/), [NorthWest Research Associates](https://www.nwra.com/), Frontier Development Lab (FDL) [Heliolab](https://fdl.ai/heliolab), and most recently as an AI/ML intern at NASA Goddard Space Flight Center. 
 
+## What I'm Working On
 
-## News & Updates
-* UPDATE HIATUS: This website is currently being updated and transferred to another platform. Stay tuned!
-* January 2026: Our AAAI paper is published. [Check it out here!](https://ojs.aaai.org/index.php/AAAI/article/view/41477)
-* October 2025: Paper Alert! Our paper from my summer work at NASA has been accepted to AAAI-26! Official publication coming soon.
-* October 2025: Paper Alert! Our paper from my work in collaboration with LANL has been published in GRL. [Check it out here!](https://agupubs-onlinelibrary-wiley-com.unh.idm.oclc.org/doi/full/10.1029/2025GL115589).
-* August 2025: I will be attending ML-Helio in Madrid, Spain.
-* June 2025: I will be an intern at GSFC working on AI models for the upcoming Habitable Worlds Observatory! I will aslo be attend the HWO conference in Washington, DC. 
-* March 2024: I will be attending EGU in Vienna, Austria.
-* November 2024: I will be attending the American Geophysical Union fall meeting this December in Washington, DC. I will be presenting a poster and giving a talk on my ML-IMEF work.
-* October 2024: I had a fantastic time at Google HQ in Mountain View, CA, with my team presenting our work on Sun Neural Radiance Fields.
-* September 2024: I will be presenting my IMEF model at the MMS workshop at UCLA.
-* June 2024: I will be presenting at the Geospace Environment Modeling (GEM) workshop in Fort Collins, CO on the ML-IMEF electric field model.
-* May 2024: I will be a researcher for this year's Frontier Development Lab x Heliolab sprint!
-* October 2023: I will be attending the American Geophysical Union fall meeting this December in San Francisco, CA. I will be presenting two posters, one invited.
+<div class="working-on">
+
+  <div class="work-item">
+    <div class="work-item__media">
+      <img src="{{ site.baseurl }}/images/500x300.png" alt="Replace with a project image">
+    </div>
+    <div class="work-item__body">
+      <h3 class="work-item__title">Project title goes here</h3>
+      <span class="work-item__meta">2026 &middot; UNH Space Science Center</span>
+      <p class="work-item__desc">
+        A short description of the project — two or three sentences on the question
+        you are asking, the data or model you are using, and why it matters.
+        Add a <a href="#">link</a> to the paper, code, or poster if there is one.
+      </p>
+    </div>
+  </div>
+
+  <div class="work-item work-item--reverse">
+    <div class="work-item__media">
+      <img src="{{ site.baseurl }}/images/500x300.png" alt="Replace with a project image">
+    </div>
+    <div class="work-item__body">
+      <h3 class="work-item__title">Second project title</h3>
+      <span class="work-item__meta">2025–present &middot; NASA GSFC</span>
+      <p class="work-item__desc">
+        Another short description. This block uses the
+        <code>work-item--reverse</code> class, which puts the photo on the right
+        instead of the left, so alternating items read as a rhythm down the page.
+      </p>
+    </div>
+  </div>
+
+</div>

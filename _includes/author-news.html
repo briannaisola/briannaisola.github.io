@@ -1,0 +1,15 @@
+{% assign news_limit = page.news_limit | default: 100 %}
+
+<div class="sidebar__news">
+  <h3 class="sidebar__news-title">News</h3>
+  <ul class="news-list">
+    {% for item in site.data.news limit: news_limit %}
+      <li class="news-item">
+        {% if item.date and item.date != "" %}
+          <span class="news-item__date">{{ item.date }}</span>
+        {% endif %}
+        <span class="news-item__text">{{ item.text | markdownify | remove: "<p>" | remove: "</p>" | strip_newlines }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

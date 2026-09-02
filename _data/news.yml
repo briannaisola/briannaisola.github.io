@@ -1,0 +1,42 @@
+# News & updates shown in the sidebar.
+# Newest first. `text` is Markdown, so links work: [label](url)
+# `date` is optional — leave it out for a standing notice.
+
+- date: ""
+  text: "**Update hiatus:** this website is currently being updated and transferred to another platform. Stay tuned!"
+
+- date: "January 2026"
+  text: "Our AAAI paper is published. [Check it out here!](https://ojs.aaai.org/index.php/AAAI/article/view/41477)"
+
+- date: "October 2025"
+  text: "Paper alert! Our paper from my summer work at NASA has been accepted to AAAI-26! Official publication coming soon."
+
+- date: "October 2025"
+  text: "Paper alert! Our paper from my work in collaboration with LANL has been published in GRL. [Check it out here!](https://doi.org/10.1029/2025GL115589)"
+
+- date: "August 2025"
+  text: "I will be attending ML-Helio in Madrid, Spain."
+
+- date: "June 2025"
+  text: "I will be an intern at GSFC working on AI models for the upcoming Habitable Worlds Observatory! I will also be attending the HWO conference in Washington, DC."
+
+- date: "March 2024"
+  text: "I will be attending EGU in Vienna, Austria."
+
+- date: "November 2024"
+  text: "I will be attending the American Geophysical Union fall meeting this December in Washington, DC. I will be presenting a poster and giving a talk on my ML-IMEF work."
+
+- date: "October 2024"
+  text: "I had a fantastic time at Google HQ in Mountain View, CA, with my team presenting our work on Sun Neural Radiance Fields."
+
+- date: "September 2024"
+  text: "I will be presenting my IMEF model at the MMS workshop at UCLA."
+
+- date: "June 2024"
+  text: "I will be presenting at the Geospace Environment Modeling (GEM) workshop in Fort Collins, CO on the ML-IMEF electric field model."
+
+- date: "May 2024"
+  text: "I will be a researcher for this year's Frontier Development Lab x Heliolab sprint!"
+
+- date: "October 2023"
+  text: "I will be attending the American Geophysical Union fall meeting this December in San Francisco, CA. I will be presenting two posters, one invited."

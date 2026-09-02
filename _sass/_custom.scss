@@ -1,0 +1,278 @@
+/* ==========================================================================
+   CUSTOM — typography, links, sidebar news, "what I'm working on"
+   Imported last so it wins over the base theme.
+   ========================================================================== */
+
+/*
+   Typography
+   ========================================================================== */
+
+body {
+  font-weight: 300;
+  color: $text-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: #333;
+}
+
+h1, .page__title {
+  color: #222;
+}
+
+strong, b {
+  font-weight: 700;
+}
+
+.page__content {
+  p, li, dl {
+    line-height: 1.65;
+  }
+
+  h2 {
+    margin-top: 2.2em;
+    padding-bottom: 0.35em;
+    font-size: $type-size-4;
+    border-bottom: 1px solid $border-color;
+  }
+
+  h3 {
+    margin-top: 1.6em;
+  }
+}
+
+/*
+   Links — a good blue, no underline
+   ========================================================================== */
+
+a,
+.page__content a,
+.archive a,
+.sidebar a,
+.author__urls a,
+.archive__item-title a {
+  color: $link-color;
+  text-decoration: none;
+}
+
+a:visited,
+.page__content a:visited,
+.archive a:visited {
+  color: $link-color-visited;
+}
+
+a:hover,
+.page__content a:hover,
+.archive a:hover,
+.sidebar a:hover,
+.author__urls a:hover,
+.archive__item-title a:hover,
+.archive__item:hover .archive__item-title {
+  color: $link-color-hover;
+  text-decoration: underline;
+}
+
+/* keep images inside links from picking up the theme's hover shadow */
+.page__content a:hover img {
+  box-shadow: none;
+}
+
+/*
+   Sidebar — author profile
+   ========================================================================== */
+
+.sidebar {
+  font-size: $type-size-5;
+
+  p, li {
+    font-size: 0.85em;
+    line-height: 1.6;
+  }
+
+  /* the avatar sits clean — no frame, no shadow */
+  .author__avatar img {
+    border: 0;
+    padding: 0;
+    box-shadow: none;
+  }
+
+  .author__name {
+    margin-top: 1em;
+    font-size: $type-size-3;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+    color: #222;
+  }
+
+  .author__bio {
+    margin-top: 0.35em;
+    margin-bottom: 1.2em;
+    font-style: italic;
+    font-weight: 300;
+    color: mix(#fff, $text-color, 25%);
+  }
+
+  .author__urls li {
+    margin-bottom: 0.15em;
+    color: mix(#fff, $text-color, 25%);
+  }
+}
+
+/*
+   Sidebar — news
+   ========================================================================== */
+
+.sidebar__news {
+  margin-top: 2em;
+  padding-top: 1.25em;
+  border-top: 1px solid $border-color;
+}
+
+.sidebar__news-title {
+  margin: 0 0 0.9em;
+  font-size: $type-size-6;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: mix(#fff, $text-color, 35%);
+}
+
+.news-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.news-item {
+  margin-bottom: 1em;
+  padding-left: 0;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.55;
+  color: mix(#fff, $text-color, 22%);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  a {
+    font-style: italic;
+  }
+}
+
+/* the date stays upright so the list still scans as a timeline */
+.news-item__date {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: mix(#fff, $text-color, 45%);
+}
+
+.sidebar .news-item {
+  font-size: 0.85em;
+}
+
+/* already inside a 0.85em list item — keep this relative bump modest */
+.sidebar .news-item .news-item__date {
+  font-size: 0.85em;
+}
+
+/*
+   "What I'm working on"
+   ========================================================================== */
+
+.working-on {
+  margin: 1.5em 0 2em;
+}
+
+.work-item {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 2.75em;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.work-item__media,
+.work-item__body {
+  width: 100%;
+}
+
+.work-item__media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+
+.work-item__body {
+  margin-top: 1em;
+}
+
+.work-item__title {
+  margin: 0 0 0.4em;
+  font-size: $type-size-4;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #222;
+}
+
+.work-item__meta {
+  display: block;
+  margin-bottom: 0.7em;
+  font-size: $type-size-6;
+  font-style: italic;
+  font-weight: 300;
+  letter-spacing: 0.04em;
+  color: mix(#fff, $text-color, 40%);
+}
+
+.work-item__desc {
+  margin: 0;
+  font-size: 0.95em;
+  line-height: 1.65;
+  color: $text-color;
+}
+
+/* two columns once there is room: big photo one side, text the other */
+@include breakpoint($medium) {
+  .work-item {
+    flex-wrap: nowrap;
+  }
+
+  .work-item__media {
+    width: 46%;
+    flex: 0 0 46%;
+  }
+
+  .work-item__body {
+    width: 54%;
+    flex: 0 0 54%;
+    margin-top: 0;
+    padding-left: 1.75em;
+  }
+
+  /* add class="work-item work-item--reverse" to flip photo to the right */
+  .work-item--reverse {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    flex-direction: row-reverse;
+  }
+
+  .work-item--reverse .work-item__body {
+    padding-left: 0;
+    padding-right: 1.75em;
+  }
+}
