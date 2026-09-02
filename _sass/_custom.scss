@@ -136,6 +136,14 @@ a.reversefootnote:hover {
   }
 }
 
+/* the theme tints each icon by brand (LinkedIn blue, GitHub, etc.) and lets the
+   rest inherit the link color — keep them all one dark gray instead */
+.sidebar .social-icons i,
+.sidebar .author__urls i,
+.sidebar .author__urls a:hover i {
+  color: #444;
+}
+
 /*
    Sidebar — news
    ========================================================================== */
