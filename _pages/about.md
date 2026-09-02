@@ -29,9 +29,8 @@ I have previous associations at Los Alamos National Laboratory [Theoretical Divi
       <p class="work-item__desc">
         A short description of the project. A short description of the project. A short description of the project.
       </p>
+      <a href="https://arxiv.org/abs/2601.12557">M. Moussa, A. V. Young, B. Isola, et al., “Life, Machine Learning, and the Search for Habitability: Predicting Biosignature Fluxes for the Habitable Worlds Observatory”, Proceedings of the AAAI Conference on Artificial Intelligence 40, pp. 40362–40369 (2026).</a> 
     </div>
-     Add a <a href="https://arxiv.org/abs/2601.12557">M. Moussa, A. V. Young, B. Isola, et al., “Life, Machine Learning, and the Search for Habitability: Predicting
-Biosignature Fluxes for the Habitable Worlds Observatory”, Proceedings of the AAAI Conference on Artificial Intelligence 40, pp. 40362–40369 (2026).</a> 
   </div>
    
 
