@@ -220,13 +220,13 @@ a.reversefootnote:hover {
    re-tints the banner automatically */
 .banner {
   margin: 0 0 1.75em;
-  padding: 0.5em 1.25em;
+  padding: 0.35em 1.25em;
   border: 1px solid $link-color;
   border-radius: 8px;
   background-color: mix(#fff, $link-color, 92%);
   color: mix(#000, $link-color, 20%);
   font-size: 0.95em;
-  line-height: 1.5;
+  line-height: 1.35;
   text-align: center;
 
   p {
