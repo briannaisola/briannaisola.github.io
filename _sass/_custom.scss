@@ -330,3 +330,19 @@ a.reversefootnote:hover {
     padding-right: 1.75em;
   }
 }
+
+/*
+   One-page site
+   ========================================================================== */
+
+/* Hide the top nav bar so the site reads as a single page. Nothing is deleted:
+   the masthead markup, _data/navigation.yml, and every other page still exist
+   and remain reachable by URL. Delete this block to bring the menu back. */
+.masthead {
+  display: none;
+}
+
+/* the masthead used to provide the gap under the browser chrome */
+#main {
+  margin-top: 3.5em;
+}

@@ -15,7 +15,7 @@ I am a PhD candidate in space physics at the University of New Hampshire [Space 
 
 I have previous associations at Los Alamos National Laboratory [Theoretical Division](https://www.lanl.gov/org/ddste/aldsc/theoretical/), [NorthWest Research Associates](https://www.nwra.com/), Frontier Development Lab (FDL) [Heliolab](https://fdl.ai/heliolab), and most recently as an AI/ML intern at NASA Goddard Space Flight Center. 
 
-## What I'm Working On
+## What I'm Working On (In Progress)
 
 <div class="working-on">
 
@@ -24,15 +24,29 @@ I have previous associations at Los Alamos National Laboratory [Theoretical Divi
       <img src="{{ site.baseurl }}/images/500x300.png" alt="Replace with a project image">
     </div>
     <div class="work-item__body">
-      <h3 class="work-item__title">Project title goes here</h3>
+      <h3 class="work-item__title">Modeling the Inner Magnetospheric Electric Field </h3>
       <span class="work-item__meta">2026 &middot; UNH Space Science Center</span>
       <p class="work-item__desc">
-        A short description of the project — two or three sentences on the question
-        you are asking, the data or model you are using, and why it matters.
-        Add a <a href="#">link</a> to the paper, code, or poster if there is one.
+        A short description of the project. A short description of the project. A short description of the project.
       </p>
     </div>
   </div>
+    Add a <a href="#">link</a> to the paper, code, or poster if there is one.
+
+  <div class="work-item">
+    <div class="work-item__media">
+      <img src="{{ site.baseurl }}/images/500x300.png" alt="Replace with a project image">
+    </div>
+    <div class="work-item__body">
+      <h3 class="work-item__title">Exoplanet Biosignature Detection </h3>
+      <span class="work-item__meta">2026 &middot; NASA GSFC</span>
+      <p class="work-item__desc">
+        A short description of the project. A short description of the project. A short description of the project.
+      </p>
+    </div>
+  </div>
+
+  
 
 
 </div>
