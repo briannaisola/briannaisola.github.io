@@ -28,6 +28,11 @@ h3, h4, h5, h6 {
   color: #444;
 }
 
+/* the reference sets h4–h6 slightly lighter than h1–h3 */
+h4, h5, h6 {
+  font-weight: 600;
+}
+
 strong, b {
   font-weight: 700;
 }
