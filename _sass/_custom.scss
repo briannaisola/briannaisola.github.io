@@ -17,15 +17,15 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   letter-spacing: -0.01em;
-  color: #333;
+  color: #202225;
 }
 
 h1, .page__title {
-  color: #222;
+  color: #17181a;
 }
 
 h3, h4, h5, h6 {
-  color: #444;
+  color: #2b2d30;
 }
 
 /* the reference sets h4–h6 slightly lighter than h1–h3 */
@@ -124,7 +124,7 @@ a.reversefootnote:hover {
     font-size: $type-size-3;
     font-weight: 700;
     letter-spacing: -0.015em;
-    color: #222;
+    color: #17181a;
   }
 
   .author__bio {
@@ -146,7 +146,7 @@ a.reversefootnote:hover {
 .sidebar .social-icons i,
 .sidebar .author__urls i,
 .sidebar .author__urls a:hover i {
-  color: #444;
+  color: #2b2d30;
 }
 
 /*
@@ -213,6 +213,33 @@ a.reversefootnote:hover {
 }
 
 /*
+   Inline banner
+   ========================================================================== */
+
+/* colors are all derived from $link-color, so changing the link color
+   re-tints the banner automatically */
+.banner {
+  margin: 0 0 1.75em;
+  padding: 0.85em 1.25em;
+  border: 1px solid $link-color;
+  border-radius: 8px;
+  background-color: mix(#fff, $link-color, 92%);
+  color: mix(#000, $link-color, 20%);
+  font-size: 0.95em;
+  line-height: 1.5;
+  text-align: center;
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: mix(#000, $link-color, 20%);
+    text-decoration: underline;
+  }
+}
+
+/*
    "What I'm working on"
    ========================================================================== */
 
@@ -253,7 +280,7 @@ a.reversefootnote:hover {
   font-size: $type-size-4;
   font-weight: 700;
   line-height: 1.25;
-  color: #222;
+  color: #17181a;
 }
 
 .work-item__meta {

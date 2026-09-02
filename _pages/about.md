@@ -9,6 +9,8 @@ redirect_from:
   - /about.html
 ---
 
+<div class="banner">Testing!</div>
+
 I am a PhD candidate in space physics at the University of New Hampshire [Space Sciences Center](https://eos.unh.edu/space-science-center) under the guidance of [Dr. Matthew Argall](https://eos.unh.edu/person/matthew-argall), and supported by a NASA FINESST fellowship. My research focus includes magnetospheric physics (MI coupling, magnetic reconnection, electric field), and ML/AI for space weather prediction. I am also interested in  foundation models for broader scientific discovery, and model interpretability and explainability, focused on what these models can reveal about the underlying physics, beyond prediction alone.
 
 I have previous associations at Los Alamos National Laboratory [Theoretical Division](https://www.lanl.gov/org/ddste/aldsc/theoretical/), [NorthWest Research Associates](https://www.nwra.com/), Frontier Development Lab (FDL) [Heliolab](https://fdl.ai/heliolab), and most recently as an AI/ML intern at NASA Goddard Space Flight Center. 
