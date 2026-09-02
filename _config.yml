@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Brianna N. Isola"
   avatar           : "profile.jpg"
-  bio              : "PhD Student in Space Physics"
-  location         : "University of New Hampshire"
+  bio              : "Physics PhD Candidate @ University of New Hampshire"
+  location         : #"University of New Hampshire"
   employer         :
   pubmed           : 
   googlescholar    : 
